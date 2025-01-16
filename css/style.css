@@ -434,9 +434,16 @@ h1{
     line-height: 24px; /* 150% */
     }
 /* info conrainer */
+.info-section{
+    display: flex;
+    width: 702px;
+    align-items: center;
+    gap: 24px;
+}
 .info-container{
     display: flex;
     width: 702px;
+    height: 272px;
     align-items: center;
     gap: 24px;
     }
@@ -525,4 +532,96 @@ h1{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px; /* 150% */
+}
+/* Additional Info */
+.additional-info{
+    display: flex;
+    padding: 24px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+}
+.additional-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+.additional-text{
+    color: #14171F;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+.resume{
+    display: flex;
+    height: 80px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+.resume-text{
+    color: #2F2F2F;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+.resume-link{
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+}
+.resume-link::placeholder{
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+.additional-link{
+    display: flex;
+    height: 80px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+.https-box{
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+.Additional-link-name{
+    color: #2F2F2F;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+.https{
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+}
+.https::placeholder{
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
 }
