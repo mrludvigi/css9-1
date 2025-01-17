@@ -188,6 +188,12 @@ button{
     align-items: center;
     flex-wrap: wrap;
 }
+.header-one{
+    display: flex;
+}
+.burger-menu{
+    display: none;
+}
 .left-section{
     display: flex;
     justify-content: center;
@@ -846,6 +852,26 @@ h1{
     line-height: 32px; /* 133.333% */
     align-self: stretch;
 }
+input:hover{
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #7B62FF;
+    background: #E6E1FF;
+    box-shadow: 0px 4px 4px 0px rgba(123, 98, 255, 0.25);
+}
+.img-plus{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    padding: 5.833px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
 
 
 /* Media For Tablet */
@@ -903,12 +929,48 @@ h1{
         gap: 16px;
         align-self: stretch;
     }
+    .hero{
+        background: url("../img/hero-tablet.svg") lightgray 50% / cover no-repeat;
+    }
     .info-section{
         display: flex;
         height: 323px;
         align-items: center;
         gap: 24px;
         align-self: stretch;
+    }
+    .header{
+        gap: 12px;
+    }
+    .header-one{
+        gap: 24px;
+    }
+    .burger-menu{
+        display: flex;
+        width: 32px;
+        height: 32px;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        border-radius: 600px;
+        background: #F7F7F7;
+    }
+    .burger-menu-img{
+        width: 20.008px;
+        height: 20.008px;
+        flex-shrink: 0;
+    }
+    .left-section{
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+    .right-section{
+        display: flex;
+        align-items: center;
+        gap: 10px;
     }
 }
 
@@ -990,15 +1052,10 @@ h1{
     }
     .info-container{
         display: flex;
-        max-width: 288px;
-        width: 100%;
-        padding: 24px 16px;
         flex-direction: column;
-        align-items: flex-start;
-        gap: 24px;
     }
     .info-section{
-        height: 1000px;
+        height: 850px;
     }
     .info-left{
         display: flex;
@@ -1016,6 +1073,14 @@ h1{
         gap: 24px;
         align-self: stretch;
     }
+    .info-bottom{
+        display: flex;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
     .additional-info{
         display: flex;
         max-width: 288px;
@@ -1024,5 +1089,93 @@ h1{
         flex-direction: column;
         align-items: flex-start;
         gap: 24px;
+    }
+    .burger-menu{
+        display: flex;
+        width: 32px;
+        height: 32px;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        border-radius: 600px;
+        background: #F7F7F7;
+    }
+    .burger-menu-img{
+        width: 20.008px;
+        height: 20.008px;
+        flex-shrink: 0;
+    }
+    .section-link{
+        color: #2F2F2F;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px; /* 171.429% */
+    }
+    .left-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+    .right-section{
+        display: flex;
+        max-width: 286px;
+        width: 100%;
+        align-items: center;
+        gap: 8px;
+        flex-shrink: 0;
+    }
+    .button-normal{
+        display: flex;
+        padding: 4px 8px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 50px;
+        border: 1px solid #C7C7C7;
+        background: #F7F7F7;
+        color: #2F2F2F;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px; /* 183.333% */
+    }
+    .personal-name-left{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        align-self: stretch;
+    }
+    .number-fix{
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+        align-self: stretch;
+    }
+    .mobile-number{
+        display: flex;
+        padding: 12px 16px;
+        align-items: center;
+        gap: 10px;
+        flex: 1 0 0;
+        border-radius: 8px;
+        border: 1px solid #C7C7C7;
+        background: #F9FBFC;
+        max-width: 180px;
+         width: 100%;
+    }
+    .number-index{
+        display: flex;
+        padding: 12px 16px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 8px;
+        border: 1px solid #C7C7C7;
+        background: #14171F;
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px; /* 171.429% */
     }
 }
