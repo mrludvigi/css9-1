@@ -930,7 +930,7 @@ input:hover{
         align-self: stretch;
     }
     .hero{
-        background: url("../img/hero-tablet.svg") lightgray 50% / cover no-repeat;
+        background: url("../img/herotablet.svg") lightgray 50% / cover no-repeat;
     }
     .info-section{
         display: flex;
@@ -1007,7 +1007,7 @@ input:hover{
         flex-shrink: 0;
         border-radius: 16px;
         border: 1px solid #C7C7C7;
-        background: url("../img/hero-mobile.svg") lightgray 50% / cover no-repeat;
+        background: url("../img/heromobile.svg") lightgray 50% / cover no-repeat;
     }
     .hero h1{
         width: 248px;
