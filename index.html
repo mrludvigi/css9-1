@@ -109,113 +109,173 @@
                         <button class="button-category">Account Security</button>
                         <button class="button-category">Close account</button>
                     </div>
-                    <!--Personal Info-->
-                    <div class="personal-information">
-                        <div class="personal-text">
-                            <div class="personal-left">
-                                <h2 class="personal-information-name">Personal Information</h2>
-                                <p class="personal-information-subhead">Upload your personal information here </p>
-                            </div>
+                    <div class="main-section">
+                        <div class="personal-box">
+                            <!--Personal Info-->
+                            <div class="personal-information">
+                              <div class="personal-text">
+                                  <div class="personal-left">
+                                      <h2 class="personal-information-name">Personal Information</h2>
+                                      <p class="personal-information-subhead">Upload your personal information here </p>
+                                  </div>
+                              </div>
+                               <div class="personal-name">
+                                      <div class="personal-name-left">
+                                          <label class="full-name" for="FullName">Full Name</label>
+                                          <input class="name-text" type="text" name="FullName" id="FullName" placeholder="Please enter your name here">
+                                      </div>
+                                      <div class="personal-name-left">
+                                          <label class="full-name" for="email">Email</label>
+                                          <input class="name-text" type="email" name="email" id="email" placeholder="gabI">
+                                      </div>
+                              </div>
+                              <div class="personal-name">
+                                      <div class="personal-name-left">
+                                          <label class="full-name" for="number">Contact Number</label>
+                                          <div class="number-fix">
+                                              <input class="number-index" type="number" placeholder="+920">
+                                              <input class="mobile-number" type="number" name="number" id="number" placeholder="01234-3465-872">
+                                          </div>
+                                      </div>
+                                      <div class="personal-name-left">
+                                          <label class="full-name" for="birthday">Birthday Date</label>
+                                          <input class="birthday-date" type="date" name="birthday" id="birthday" placeholder="March 12-1999">
+                                      </div>
+                              </div>
+                              <button class="button-save">Save</button>
+                          </div>
+                          <div class="info-section">
+                              <!--Info Container-->
+                              <div class="info-container">
+                                  <div class="info-left">
+                                      <div class="info-header">
+                                          <h2 class="info-header-text">Personal Information</h2>
+                                      </div>
+                                      <div class="info-bottom">
+                                          <div class="info-list">
+                                              <div class="info-items">
+                                                  <div class="info-edit">
+                                                      <img src="./img/ico/edit.svg" class="img-edit" alt="edit">
+                                                  </div>
+                                                  <div class="info-category-name">
+                                                      <p class="info-subhead">Department</p>
+                                                      <p class="info-subfoot">Development</p>
+                                                  </div>
+                                              </div>
+                                              <div class="info-items">
+                                                  <div class="info-edit">
+                                                      <img src="./img/ico/edit.svg" class="img-edit" alt="edit">
+                                                  </div>
+                                                  <div class="info-category-name">
+                                                      <p class="info-subhead">Team</p>
+                                                      <p class="info-subfoot">Product hunt</p>
+                                                  </div>
+                                              </div>
+                                              
+                                          </div>
+                                          <div class="info-list">
+                                              <div class="info-items">
+                                                  <div class="info-edit">
+                                                      <img src="./img/ico/edit.svg" class="img-edit" alt="edit">
+                                                  </div>
+                                                  <div class="info-category-name">
+                                                      <p class="info-subhead">Role</p>
+                                                      <p class="info-subfoot">Front-end developer</p>
+                                                  </div>
+                                              </div>
+                                              <div class="info-items">
+                                                  <div class="info-edit">
+                                                      <img src="./img/ico/edit.svg" class="img-edit" alt="edit">
+                                                  </div>
+                                                  <div class="info-category-name">
+                                                      <p class="info-subhead">Reg. Date</p>
+                                                      <p class="info-subfoot">Aug 15, 2012</p>
+                                                  </div>
+                                              </div>
+                                              
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <!--Additional Info-->
+                              <div class="additional-info">
+                                  <div class="additional-header">
+                                      <h2 class="additional-text">Additional Info</h2>
+                                      <div class="info-edit">
+                                          <img src="./img/ico/edit.svg" class="img-edit" alt="edit">
+                                      </div>
+                                  </div>
+                                  <div class="resume">
+                                      <label for="resume" class="resume-text">Resume</label>
+                                      <input type="url" class="resume-link" name="link" id="link" placeholder="enter your resume link here">
+                                  </div>
+                                  <div class="additional-link">
+                                      <label for="Additional-links" class="Additional-link-name">Additional links</label>
+                                      <div class="https-box">
+                                          <select name="links-name" class="link-social">
+                                              <option class="social-text" value="Linkedin">Linkedin</option>
+                                              <option class="social-text" value="Facebook">Facebook</option>
+                                              <option class="social-text" value="Github">Github</option>
+                                            </select>                                   
+                                          <input type="url" name="url" id="url" class="https" placeholder="https://">
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
                         </div>
-                         <div class="personal-name">
-                                <div class="personal-name-left">
-                                    <label class="full-name" for="FullName">Full Name</label>
-                                    <input class="name-text" type="text" name="FullName" id="FullName" placeholder="Please enter your name here">
-                                </div>
-                                <div class="personal-name-left">
-                                    <label class="full-name" for="email">Email</label>
-                                    <input class="name-text" type="email" name="email" id="email" placeholder="gabI">
-                                </div>
-                        </div>
-                        <div class="personal-name">
-                                <div class="personal-name-left">
-                                    <label class="full-name" for="number">Contact Number</label>
-                                    <div class="number-fix">
-                                        <input class="number-index" type="number" placeholder="+920">
-                                        <input class="mobile-number" type="number" name="number" id="number" placeholder="01234-3465-872">
-                                    </div>
-                                </div>
-                                <div class="personal-name-left">
-                                    <label class="full-name" for="birthday">Birthday Date</label>
-                                    <input class="birthday-date" type="date" name="birthday" id="birthday" placeholder="March 12-1999">
-                                </div>
-                        </div>
-                        <button class="button-save">Save</button>
+                          <!--My Section-->
+                          <div class="my-section">
+                              <div class="my-info">
+                                  <div class="my-info-top">
+                                      <div>
+                                          <div class="info-edit">
+                                              <img src="./img/ico/edit.svg" class="img-edit" alt="edit">
+                                          </div>
+                                          <div class="info-edit">
+                                              <img src="./img/ico/edit.svg" class="img-edit" alt="edit">
+                                          </div>
+                                      </div>
+                                      <img class="avatar-my" src="./img/avatar-andrio.svg" alt="avatar">
+                                      <div>
+                                          <div class="info-edit">
+                                              <img src="./img/ico/edit.svg" class="img-edit" alt="edit">
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="my-info-bottom">
+                                      <p>Andrio Richard</p>
+                                      <div class="tag">
+                                          <button class="tag-button">Student</button>
+                                          <button class="tag-button">Freelancer</button>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="my-location">
+                                  <div class="name-location">
+                                      <h2 class="location-names">Location</h2>
+                                      <div class="info-edit">
+                                          <img src="./img/ico/edit.svg" class="img-edit" alt="edit">
+                                      </div>
+                                  </div>
+                                  <select name="loaction" id="location">
+                                      <option value="Evergreen Meadows 12345">Evergreen Meadows 12345</option>
+                                      <option value="208 Olson Boulevard, Toyburgh">208 Olson Boulevard, Toyburgh</option>
+                                      <option value="67B Gregorio Grove ,Jaskolskiville">67B Gregorio Grove ,Jaskolskiville</option>
+                                      <option value="0 / 77 Purdy Crescent, West Arthur">0 / 77 Purdy Crescent, West Arthur</option>
+                                  </select>
+                              </div>
+                              <div class="my-about">
+                                  <div class="about-name">
+                                      <span>About</span>
+                                      <span>100/120 words</span>
+                                  </div>
+                                  <textarea name="about" id="about">
+                                      "I'm a dedicated freelancer specializing in [your field, e.g., UI/UX design, writing, etc.], passionate about delivering creative and effective solutions. With [X years] of experience, I thrive on turning ideas into impactful results for my clients
+                                  </textarea>
+                              </div>
+                          </div>
                     </div>
-                    <div class="info-section">
-                        <!--Info Container-->
-                        <div class="info-container">
-                            <div class="info-left">
-                                <div class="info-header">
-                                    <h2 class="info-header-text">Personal Information</h2>
-                                </div>
-                                <div class="info-bottom">
-                                    <div class="info-list">
-                                        <div class="info-items">
-                                            <div class="info-edit">
-                                                <img src="./img/ico/edit.svg" class="img-edit" alt="edit">
-                                            </div>
-                                            <div class="info-category-name">
-                                                <p class="info-subhead">Department</p>
-                                                <p class="info-subfoot">Development</p>
-                                            </div>
-                                        </div>
-                                        <div class="info-items">
-                                            <div class="info-edit">
-                                                <img src="./img/ico/edit.svg" class="img-edit" alt="edit">
-                                            </div>
-                                            <div class="info-category-name">
-                                                <p class="info-subhead">Team</p>
-                                                <p class="info-subfoot">Product hunt</p>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                    <div class="info-list">
-                                        <div class="info-items">
-                                            <div class="info-edit">
-                                                <img src="./img/ico/edit.svg" class="img-edit" alt="edit">
-                                            </div>
-                                            <div class="info-category-name">
-                                                <p class="info-subhead">Role</p>
-                                                <p class="info-subfoot">Front-end developer</p>
-                                            </div>
-                                        </div>
-                                        <div class="info-items">
-                                            <div class="info-edit">
-                                                <img src="./img/ico/edit.svg" class="img-edit" alt="edit">
-                                            </div>
-                                            <div class="info-category-name">
-                                                <p class="info-subhead">Reg. Date</p>
-                                                <p class="info-subfoot">Aug 15, 2012</p>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Additional Info-->
-                        <div class="additional-info">
-                            <div class="additional-header">
-                                <h2 class="additional-text">Additional Info</h2>
-                                <div class="info-edit">
-                                    <img src="./img/ico/edit.svg" class="img-edit" alt="edit">
-                                </div>
-                            </div>
-                            <div class="resume">
-                                <label for="resume" class="resume-text">Resume</label>
-                                <input type="url" class="resume-link" name="link" id="link" placeholder="enter your resume link here">
-                            </div>
-                            <div class="additional-link">
-                                <label for="Additional-links" class="Additional-link-name">Additional links</label>
-                                <div class="https-box">
-                                    <input type="">
-                                    <input type="url" name="url" id="url" class="https" placeholder="https://">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  
                 </main>
             </div>
         </div>
