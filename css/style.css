@@ -1032,7 +1032,6 @@ input:hover{
     }
     .personal-information{
         display: flex;
-        max-width: 288px;
         width: 100%;
         padding: 24px 16px;
         flex-direction: column;
@@ -1052,6 +1051,7 @@ input:hover{
     }
     .info-section{
         height: 850px;
+        flex-direction: column;
     }
     .info-left{
         display: flex;
