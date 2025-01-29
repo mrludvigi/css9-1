@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Dropdown</title>
+  <style>
+    body {
+      background-color: #000; /* შავი ფონი */
+      color: #fff; /* ტექსტის ფერი */
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    select {
+      background-color: #333; /* დროპდაუნის ფონი */
+      color: #fff; /* ტექსტის ფერი */
+      padding: 10px 15px;
+      border: none;
+      border-radius: 25px; /* მომრგვალებული კუთხეები */
+      appearance: none; /* ნაგულისხმევი სტილის მოხსნა */
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    select:hover {
+      background-color: #444; /* ფონზე მაუსის გადასმისას */
+    }
+
+    select option {
+      background-color: #333; /* ოპციის ფონი */
+      color: #fff; /* ოპციის ტექსტის ფერი */
+    }
+
+    /* დროპდაუნის ჩახსნის სიმბოლოსთვის */
+    select::-ms-expand {
+      display: none; /* IE-ის ნაგულისხმევი ხატულა */
+    }
+
+    .dropdown-container {
+      position: relative;
+    }
+
+    .dropdown-container::after {
+      content: '▼'; /* ხატულა */
+      font-size: 12px;
+      color: #fff;
+      position: absolute;
+      right: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="dropdown-container">
+    <select>
+      <option selected disabled>Year</option>
+      <option value="1999">1999</option>
+      <option value="2000">2000</option>
+      <option value="2001">2001</option>
+      <option value="2002">2002</option>
+    </select>
+  </div>
+</body>
+</html>
